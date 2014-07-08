@@ -6,7 +6,8 @@
     "description": "Ramblings"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "wintersmith-livereload"
   ],
   "require": {
     "moment": "moment",
