@@ -84,7 +84,7 @@ hr {
 /* page header */
 
 .header {
-  margin: 3em 0 5em;
+  margin: 3em 0 2em;
 }
 
 .header h1 {
@@ -130,13 +130,13 @@ body.article-detail > header {
 /* page footer */
 
 footer {
-  margin: 3em 0;
+  margin: 1em 0;
 }
 
 footer .nav {
   text-align: center;
-  margin-top: 5em;
-  margin-bottom: 3.5em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 footer .nav a {
@@ -173,7 +173,7 @@ footer .copy, footer .copy a {
 /* article */
 
 .article {
-  margin: 3em 0 4em;
+  margin: 1em 0 1.5em;
 }
 
 .article header {
