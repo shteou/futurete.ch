@@ -8,6 +8,8 @@ template: article.jade
 I recently hacked together a project prototype using Amazon Web Services.  
 I store various files using Amazon S3 and access them via Amazon's Cloudfront service.
 
+<span class="more"></span>
+
 In my case, Cloudfront adds very little to the solution other than leaving me free from worrying about catering to multiple regions in the prototype. This is because in ideal operation of the system, each file should be fetched once and only once, barring exceptional circumstances. All other requests for the content would be expected to return a 304 (Not modified) response.
 
 I currently use an If-Not-Modified header to perform cache control, which for the most part works well. However, every now and then Cloudfront insists on returning a full 200 response, despite the ETag matching exactly.  

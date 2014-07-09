@@ -7,6 +7,8 @@ template: article.jade
 
 My current recipe for lovely, spicy kofte.
 
+<span class="more"></span>
+
 * 1lb minced lamb
 * 3 tsp. cumin
 * 3 tsp. salt
